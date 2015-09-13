@@ -3,6 +3,7 @@ import java.util.Hashtable;
 class Node {
     public char value;
     public Hashtable<Character, Path> neighbors;
+    public int depth;
 
     /**
      * Generates a new instance of Node.
